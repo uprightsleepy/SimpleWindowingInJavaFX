@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SecondController">
+   <children>
+      <Label layoutX="120.0" layoutY="88.0" prefHeight="112.0" prefWidth="359.0" text="Second Scene">
+         <font>
+            <Font name="Times New Roman" size="52.0" />
+         </font></Label>
+      <Button layoutX="179.0" layoutY="228.0" mnemonicParsing="false" onAction="#toMain" prefHeight="102.0" prefWidth="242.0" text="To Main Scene">
+         <font>
+            <Font name="Times New Roman" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

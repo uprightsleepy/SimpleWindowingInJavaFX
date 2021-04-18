@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Label alignment="CENTER" layoutX="126.0" layoutY="100.0" prefHeight="99.0" prefWidth="347.0" text="Main Scene">
+         <font>
+            <Font name="Times New Roman" size="52.0" />
+         </font>
+      </Label>
+      <Button fx:id="SceneChangeButton" layoutX="196.0" layoutY="237.0" mnemonicParsing="false" onAction="#toSecond" prefHeight="86.0" prefWidth="208.0" text="To The Second Scene">
+         <font>
+            <Font name="Times New Roman" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
